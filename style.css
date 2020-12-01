@@ -1,0 +1,14 @@
+#input{
+    height: 10vh;
+    width: 80vw;
+    padding: 1rem;
+    margin: 1rem;
+    display: block;
+}
+#output{
+    height: 10vh;
+    width: 50vw;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+}
