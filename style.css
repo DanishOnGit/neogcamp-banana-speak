@@ -62,7 +62,7 @@ body{
     
 }
 #btnTranslate{
-    background-color: rgb(106, 129, 235);
+    background-color:var(--primary-color);
     display: block;
     margin: auto;
     padding: 0.5rem;
