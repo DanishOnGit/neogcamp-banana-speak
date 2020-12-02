@@ -6,16 +6,21 @@ body{
     padding: 0;
 }
 .heading{
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     height: 12vh;
     width: 100vw;
     text-align: center;
-    
 }
+.intro{
+    text-align: center;
+}
+
 .heading h1{
+    
    font-size: 2rem;
-    margin: 0;
+    margin: 0px;
     line-height: 12vh;
+    
     
 }
 .bottom{
@@ -26,13 +31,8 @@ body{
     bottom: 0;
 }
 .container{
-    margin: 5rem 0;
-    
-    padding: 2rem;
-}
-section{
-    
     margin: 2rem 0;
+    padding: 2rem;
 }
 
 
@@ -40,7 +40,6 @@ section{
     height: 10vh;
     width: 50vw;
     padding: 1rem;
-    margin: 1rem;
     display: block;
     margin: auto;
     border-radius: 0.5rem;
