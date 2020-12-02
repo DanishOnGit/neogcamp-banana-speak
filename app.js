@@ -1,11 +1,23 @@
 var translateButton=document.querySelector("#btn-translate");
 var inputText=document.querySelector("#input");
 var outputText=document.querySelector("#output");
-var bodyy=document.querySelector("body")
-function translatorOn(){
+var serverUrl="https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
 
-    var x= inputText.value
-   outputText.innerText=x;
+function getTranslationUrl(text){
+return sereverUrl+"?"+"text="+ text  
 
 }
-translateButton.addEventListener("click",translatorOn);
+
+function clickHandler(){
+    var enteredText=inputText.value
+    fetch(getTranslationUrl(enteredText))
+    .then(response=>response.json())
+    .then(json=>console.log(json))
+}
+
+translateButton.addEventListener("click",clickHandler);
+
+
+
+
+// "https://api.funtranslations.com/translate/minion.json";
