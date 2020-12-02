@@ -35,16 +35,13 @@ body{
     height: 12vh;
     width: 100vw;
     background-color:var(--primary-color);
-    position: absolute;
-    bottom: 0;
+    
 }
 .container{
     margin: 2rem 0;
     padding: 2rem;
     text-align: center;
 }
-
-
 
 #input{
     height: 10vh;
