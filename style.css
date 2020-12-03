@@ -50,6 +50,7 @@ body{
     display: block;
     margin: auto;
     border-radius: 0.5rem;
+    
 }
 #output{
     height: 10vh;
@@ -59,7 +60,7 @@ body{
     border: 1px solid black;
     border-radius: 0.5rem;
     font-size: 1.5rem;
-    
+    text-align: left;
 }
 #btnTranslate{
     background-color:var(--primary-color);
