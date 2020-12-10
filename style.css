@@ -40,7 +40,7 @@ body{
     padding: 1rem 0rem;
 }
 .bottom p {
-    max-width: 60%;
+    max-width: 80%;
     margin: auto;
 
 }
@@ -48,6 +48,7 @@ body{
     margin: 2rem 0;
     padding: 2rem;
     text-align: center;
+    
 }
 
 #input{
