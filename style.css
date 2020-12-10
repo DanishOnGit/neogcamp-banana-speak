@@ -31,11 +31,18 @@ body{
     
     
 }
+
 .bottom{
-    height: 12vh;
+    min-height: 12vh;
     width: 100vw;
     background-color:var(--primary-color);
-    
+    text-align: center;
+    padding: 1rem;
+}
+.bottom p {
+    max-width: 60%;
+    margin: auto;
+
 }
 .container{
     margin: 2rem 0;
